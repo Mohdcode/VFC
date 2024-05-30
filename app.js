@@ -1,16 +1,15 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then((registration) => {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, (error) => {
+        console.log('ServiceWorker registration failed: ', error);
+      });
+  });
+}
 
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js')
-        .then((registration) => {
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        }, (error) => {
-          console.log('ServiceWorker registration failed: ', error);
-        });
-    });
-  }
-
-  let deferredPrompt;
+let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (event) => {
   // Prevent the mini-infobar from appearing on mobile
@@ -21,7 +20,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
   showInstallPromotion();
 });
 
-// Trigger the installation prompt
+// Assuming installButton is defined as the button element that triggers the installation prompt
 installButton.addEventListener('click', () => {
   // Show the prompt
   deferredPrompt.prompt();
@@ -35,5 +34,3 @@ installButton.addEventListener('click', () => {
     deferredPrompt = null;
   });
 });
-
-  

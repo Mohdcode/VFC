@@ -17,10 +17,15 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],"screenshots":[
-    {"src":"./screenshots/screenshot-desktop.png",
-    "sizes":"2153x1301",
-    "type":"image/png",
-    "form_factor":"wide"}
+  ],
+  
+"screenshots": [
+    {
+      "src": "./screenshots/screenshot-desktop.png",
+      "sizes": "2153x1301",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
   ]
+
 }

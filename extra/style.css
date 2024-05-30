@@ -512,6 +512,7 @@ h2 {
 p b {
   cursor: pointer;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
 * {
@@ -771,14 +772,13 @@ input {
 
   }
 }
-
 .first-list {
   display: flex;
-  justify-content: space-between;
-  position: absolute;
-  padding-top: 280px;
+  justify-content: center;  /* Changed to center for better alignment */
+  position: relative;  /* Changed from absolute to relative */
+  padding-top: 150px;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
 }
 
 .first-list li {
@@ -793,13 +793,14 @@ input {
   text-align: center;
   line-height: 80px;
   font-size: 35px;
-  margin: 0 80px;
+  margin: 0 70px; /* Reduced margin for closer spacing */
   display: block;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
   border: 3px solid #fff;
   z-index: 1;
+  text-decoration: none; /* Ensure no underlining */
 }
 
 .first-list li a .icon {
@@ -809,11 +810,10 @@ input {
   z-index: 3;
 }
 
-
 .first-list li a:before {
   content: "";
   position: absolute;
-  top: 100%;
+  top: 70%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -825,18 +825,14 @@ input {
   top: 0;
 }
 
-
-.cart {
-  padding-top: 110px;
-}
-
-.cart1 {
+.cart, .cart1 {
   padding-top: 110px;
 }
 
 .rating1 {
-  padding-top: 260px;
+  padding-top: 160px;
   padding-left: 47%;
+  padding-bottom: 150px;
 }
 
 .stars-desc {
@@ -848,7 +844,6 @@ input {
 }
 
 .contact-us {
-  
   padding-top: 45px;
 }
 
@@ -873,11 +868,6 @@ input {
   z-index: 3;
 }
 
-.address a:hover .icon {
-  color: #000;
-  transform: rotateY(360deg);
-}
-
 .address a:before {
   content: "";
   position: absolute;
@@ -885,7 +875,6 @@ input {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #f00;
   transition: .5s;
   z-index: 2;
 }
@@ -894,24 +883,13 @@ input {
   top: 0;
 }
 
-.address :nth-child(1) a:before {
-  background: #0077b5;
-}
-
-.address :nth-child(2) a:before {
-  background: #25D366;
-}
-
-.address :nth-child(3) a:before {
-  background: #FF5733;
-}
-
 .address {
   position: absolute;
   left: 100px;
   transform: translateY(-50%);
   padding-top: 200px;
 }
+
 
 .call-logo {
   padding-top: 50px;
