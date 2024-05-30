@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varsha Cakes & Flowers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  
+</head>
+
+<body>
+  <input type="checkbox" id="check">
+  <div class="container">
+    <label for="check">
+      <span id="one" class="fas fa-times" id="times"></span>
+      <span id="one" class="fas fa-bars" id="bars"></span>
+    </label>
+    <div class="head">Menu</div>
+    <ol>
+      <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+      <li><a href="#contact-us"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+      <li><a href="#products"><i class="fa-brands fa-product-hunt"></i> Product</a></li>
+      <li><a href="./extra/events.html"><i class="fa-solid fa-d"></i> Decoration</a></li>
+      <li><a href="./extra/rentals.html"><i class="fa-solid fa-r"></i>Rentals</a></li>
+      <li><a href="#gallery"><i class="fa-solid fa-images"></i> Gallery</a></li>
+      <li><a href="#feedback"><i class="fa-solid fa-comment"></i> Feedback</a></li>
+      <li><a href="#payments"><i class="fa-solid fa-qrcode"></i> Payments</a></li>
+    </ol>
+  </div>
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img class="banner" src="./images/cake2.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="banner" src="./images/cake1.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img class="banner" src="./images/cake3.jpeg" style="width:100%">
+    </div>
+
+    <a class="prev banner_btn" onclick="plusSlides(-1)">❮</a>
+    <a class="next banner_btn" onclick="plusSlides(1)">❯</a>
+
+  </div>
+  </br>
+  <span class="dot" onclick="currentSlide(1)"></span>
+
+  <div class="logo-container">
+    <figure>
+      <a href="./index.html"><img class="logo1" src="./images/logo1.jpg" alt=""></a>
+    </figure>
+  </div>
+  <div class="title">
+    <h1 class="heading">Varsha Cakes & Flowers</h1>
+  </div>
+  <div class="running">
+    <div class="deals">We deals in&nbsp;</div>
+    <div class="role-container">
+      <span class="role" data-text="Cakes"></span>
+    </div>
+    <div class="role-container">
+      <span class="role" data-text="Wedding Decorations"></span>
+    </div>
+    <div class="role-container">
+      <span class="role" data-text="Birthday Decorations"></span>
+    </div>
+  </div>
+
+  <div class="profile">
+    <div class="first-section">
+      <ul class="first-list">
+        <li>
+          <a href="tel:+917303450082"><i class="fa fa-phone icon"></i>
+          <p>Call</p></a>
+        </li>
+        <li class="cart">
+          <a href="#products"><i class="fa-solid fa-cart-shopping icon"></i>
+          <p>Shopping</p></a>
+        </li>
+        <li>
+          <a href="mailto:varshaflowersevents@gmail.com"><i class="fa fa-envelope icon"></i>
+          <p>E-mail</p></a>
+        </li>
+        <li class="cart1">
+          <a href="https://www.google.com/maps/place/27+Feet+Rd,+Block+D,+Dabua+Colony,+Sector+50,+Faridabad,+Haryana/@28.3789918,77.2755298,17z/data=!3m1!4b1!4m6!3m5!1s0x390cde98936001eb:0xe231cd9ccdb17f1f!8m2!3d28.3789871!4d77.2781047!16s%2Fg%2F1ptvx0x_r?entry=ttu"><i class="fa fa-map-marker-alt  icon"></i>
+          <p>Direction</p></a>
+        </li>
+        <li>
+          <a href="https://wa.me/+917303450082"><i class="fab fa-whatsapp icon"></i>
+          <p>Whatsapp</p></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="rating1">
+    <div class="stars1">
+      <span class="fa fa-star fa checked"></span>
+      <span class="fa fa-star fa checked"></span>
+      <span class="fa fa-star fa checked"></span>
+      <span class="fa fa-star fa checked"></span>
+      <span class="fa fa-star fa checked"></span>
+    </div>
+    <div class="stars-desc">
+      5.0(7 reviews)
+    </div>
+  </div>
+
+  <section id ="contact-us">
+    <div class="contact-us">
+      <div class="address">
+        <div class="direc-logo icon">
+          <span><a href="#"><i class="fa fa-map-marker-alt  icon"></i></a></span>
+          <span class="add-span">: &nbsp; 27 Feet Road, Near Airforce Road, Dabua Colony, Faridabad,
+            <br>&nbsp;&nbsp;Faridabad - 121001, Haryana, India</span>
+        </div>
+        <div class="call-logo icon">
+          <span><a href="tel:+917303450082"><i class="fa fa-phone icon"></i></a></span>
+          <span class="add-span">: &nbsp;+91-7303450082</span>
+        </div>
+        <div class="call-logo icon">
+          <span><a href="mailto:varshaflowersevents@gmail.com"><i class="fa fa-envelope icon"></i></a></span>
+          <span class="add-span">: &nbsp;varshaflowersevents@gmail.com</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id = "about-us"class="us">
+    <span class="us2">About us</span> 
+ </div>
+ <hr class="hr1">
+  <div class="dropdown-wrapper">
+   
+ 
+    <div class="dropdown">
+      
+      <button class="dropbtn" onclick="toggleDropdown()">Opening Timings</button>
+      <div id="dropdown-content" class="dropdown-content">
+        <p>Monday: 9 AM - 6 PM</p>
+        <p>Tuesday: 9 AM - 6 PM</p>
+        <p>Wednesday: 9 AM - 6 PM</p>
+        <p>Thursday: 9 AM - 6 PM</p>
+        <p>Friday: 9 AM - 6 PM</p>
+        <p>Saturday: 10 AM - 4 PM</p>
+        <p>Sunday: Closed</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="us3" id="main-content">
+    <span id ="products"class="us4">Regular Bouquet</span> 
+</div>
+<hr class="hr2">
+
+<div class="img-gallery">
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r1.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r1.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r2.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r2.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r3.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r3.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r4.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r4.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r5.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r5.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r6.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r6.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r7.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r7.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r8.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r8.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r9.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r9.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r10.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r10.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r11.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r11.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r12.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r12.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r13.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r13.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r14.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r14.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r15.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r15.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r16.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r16.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r17.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r17.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r18.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r18.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r19.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r19.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r20.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r20.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r21.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r21.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r22.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r22.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r23.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r23.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r24.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r24.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r25.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r25.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r26.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r26.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r27.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r27.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r28.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r28.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r29.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r29.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  <div class="img-container">
+    <img src="./images/products/flowers/regular/r30.jpeg" alt="">
+    <a onclick="sendWhatsapp('Regular Bouquet', '/images/products/flowers/regular/r30.jpeg')"class="btn-pink"> <i class="fa-brands fa-whatsapp" style="font-size: 20px; margin-right: 8px;"></i>Inquire now  </a>
+  </div>
+  
+</div>
+
+
+
+
+<div id="feedback" class="testimonial-wrapper">
+  <div class="container-x">
+      <div class="contents-wraper">
+          <section class="header"><h1>Customer's Review</h1></section>
+          <section class="testRow">
+              <div class="testItem active">
+                  <img src="./images/logo1.jpg">
+                  <div class="test-desc">
+                  <h3>Rahul Sharma</h3>
+                  <h4>Mumbai, India</h4>
+                  <p>The pastries were absolutely delightful! Fresh, tasty, and beautifully presented. A must-visit for all bakery lovers!</p>
+                 </div>
+                  <div class="stars">★★★★★</div>
+              </div>
+              <div class="testItem">
+                  <img src="./images/logo1.jpg">
+                  <div class="test-desc">
+                  <h3>Anjali Mehta</h3>
+                  <h4>Delhi, India</h4>
+                  <p>I tried
+          the chocolate croissant and it was heavenly. The layers were perfectly flaky, and the filling was rich and creamy.</p>
+        </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <div class="testItem">
+          <img src="./images/logo1.jpg">
+          <div class="test-desc">
+          <h3>Vikram Singh</h3>
+          <h4>Bangalore, India</h4>
+          <p>Excellent variety of breads and pastries. The ambiance is cozy and the service is fantastic. Highly recommended!</p>
+          </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <div class="testItem">
+          <img src="./images/logo1.jpg">
+          <div class="test-desc">
+          <h3>Priya Reddy</h3>
+          <h4>Hyderabad, India</h4>
+          <p>The cakes are simply the best in town. Moist, flavorful, and decorated to perfection. I'll definitely be coming back.</p>
+         </div>
+          <div class="stars">★★★★★</div>
+        </div>
+        <div class="testItem">
+          <img src="./images/logo1.jpg">
+          <div class="test-desc">
+          <h3>Amit Patel</h3>
+          <h4>Ahmedabad, India</h4>
+          <p>Outstanding bakery with a wide range of delicious treats. The staff is friendly and the quality is top-notch.</p>
+        </div>
+          <div class="stars">★★★★★</div>
+        </div>
+      </section>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<section id="payments" class="qr-code-section">
+  <h2>Payments</h2>
+ 
+  <img class="qr-code" src="./images/qr.jpeg" alt="QR Code for Payments">
+  <div><button class="btn-pink">Download QR</button></div>
+
+
+</section>
+
+
+
+<footer id = "footer">
+  <h6>
+      <a href="#">Varsha Flowers & Cakes</a>
+  </h6>
+  <ul>
+      <a href="https://wa.me/+917303450082"> <i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/varsha_flowers_gift/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100079153411298&mibextid=LQQJ4d"><i
+              class="fa-brands fa-facebook"></i></a>
+      <a href="mailto:varshaflowersevents@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+      <i class="fa-solid fa-phone"><a href="tel:+917303450082"> +91-73034-50082</a></i>
+  </ul>
+
+  <p class="Copyright">Copyright © 2024 Varsha Flowers & Cakes. All Rights Reserved.</p>
+
+  
+</footer>
+
+
+
+
+
+
+  <script>
+    
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    var typeData = new Typed(".role", {
+      strings: [
+        "Cakes",
+        "Wedding Decorations",
+        "Birthday Decorations",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+    document.querySelector(".ss_wrap_1 .ss_btn").addEventListener("click", function () {
+      this.classList.toggle("active");
+    });
+    function toggleDropdown() {
+  document.getElementById("dropdown-content").classList.toggle("show");
+  document.getElementById("main-content").classList.toggle("show-content");
+  var elementsBelow = document.querySelectorAll(".us3");
+  elementsBelow.forEach(function(element) {
+    element.style.marginTop = "37px"; // Add margin when dropdown is opened
+  });
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+        document.getElementById("main-content").classList.remove("show-content");
+        var elementsBelow = document.querySelectorAll(".us3");
+        elementsBelow.forEach(function(element) {
+          element.style.marginTop = ""; // Remove margin when dropdown is closed
+        });
+        // Revert us3 to its original position after a delay
+        setTimeout(function() {
+          var elementsBelow = document.querySelectorAll(".us3");
+          elementsBelow.forEach(function(element) {
+            element.style.marginTop = ""; // Remove margin
+          });
+        }, 500); // Adjust the delay time (in milliseconds) as needed
+      }
+    }
+  }
+}
+
+$(document).ready(function(){
+      $('.carousel').carousel({
+        padding: 200
+    });
+    autoplay();
+    function autoplay() {
+      $('.carousel').carousel('next');
+      setTimeout(autoplay, 4500);
+    }
+    });  
+  </script>
+
+<script type="text/javascript">
+  // Access the testimonials
+let testSlide = document.querySelectorAll('.testItem');
+// Access the indicators
+let dots = document.querySelectorAll('.dot');
+
+var counter = 0;
+var deleteInterval;
+
+// Add click event to the indicators
+function switchTest(currentTest) {
+  currentTest.classList.add('active');
+  var testId = parseInt(currentTest.getAttribute('attr'));
+  if (testId > counter) {
+    testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+    counter = testId;
+    testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+  } else if (testId === counter) {
+    return;
+  } else {
+    testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+    counter = testId;
+    testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+  }
+  indicators();
+}
+
+// Add and remove active class from the indicators
+function indicators() {
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].classList.remove('active');
+  }
+  dots[counter].classList.add('active');
+}
+
+// Code for auto sliding
+function slideNext() {
+  testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+  if (counter >= testSlide.length - 1) {
+    counter = 0;
+  } else {
+    counter++;
+  }
+  testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+  indicators();
+}
+function autoSliding() {
+  deleteInterval = setInterval(timer, 3000);
+  function timer() {
+    slideNext();
+  }
+}
+autoSliding();
+
+// Stop auto sliding when mouse is over the indicators
+const container = document.querySelector('.indicators');
+container.addEventListener('mouseover', pause);
+function pause() {
+  clearInterval(deleteInterval);
+}
+
+// Resume sliding when mouse is out of the indicators
+container.addEventListener('mouseout', autoSliding);
+
+function sendWhatsapp(productName, imagePath) {
+        // Replace 'yourPhoneNumber' with your actual phone number, including the country code.
+        var phoneNumber = '+917303450082';
+
+        // Encode the message, including the product name.
+        var message = encodeURIComponent('I want to order the product: ' + productName + '\n\nImage: ' + imagePath);
+
+
+        // Create the WhatsApp URL with the phone number, message, and image.
+        var whatsappURL = 'https://wa.me/' + phoneNumber + '?text=' + message + '&attachment=' + encodeURIComponent(imagePath);
+
+        // Open the WhatsApp URL in a new tab or window.
+        window.open(whatsappURL, '_blank');
+    }
+  </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script> 
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"> </script>
+
+
+</body>
+
+</html>
