@@ -899,6 +899,7 @@ input {
   color: #fff;
   font-size: 20px;
   padding-left: 50px;
+  padding-top: 8px;
 }
 
 .direc-logo {
@@ -1485,10 +1486,6 @@ p b {
   height: 200px; /* Set height */
  
 }
-
-
-
-
 /* Media Query for smaller screens */
 @media screen and (max-width: 768px) {
   * {
@@ -1524,7 +1521,7 @@ p b {
   .first-list li a {
     width: 60px;
     height: 60px;
-    line-height: 40px;
+    line-height: 60px;
     font-size: 20px;
     margin: 0 2px; /* Slightly reduced margin for closer spacing */
   }
@@ -1539,6 +1536,7 @@ p b {
   .address {
     left: 20px; /* Move the address section to the left */
   }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -1562,17 +1560,22 @@ p b {
     line-height: 35px;
     font-size: 18px;
   }
+  .first-list {
+   
+    margin-left: 55%;
+    
+  }
 
   .first-list li a {
     width: 55px;
     height: 55px;
     line-height: 55px;
     font-size: 22px;
-    margin: 0 5px; /* Reduced margin for closer spacing */
+    margin: 0 8px; /* Reduced margin for closer spacing */
   }
   
   .add-span {
-    font-size: 14px; /* Even smaller text size for very small devices */
+    font-size: 12px; /* Even smaller text size for very small devices */
   }
 
   .address .icon {
@@ -1580,6 +1583,6 @@ p b {
   }
 
   .address {
-    left: 10px; /* Move the address section further to the left */
+    left: 16px; /* Move the address section further to the left */
   }
 }
