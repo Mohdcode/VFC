@@ -777,7 +777,7 @@ input {
   justify-content: center;  /* Changed to center for better alignment */
   position: relative;  /* Changed from absolute to relative */
   padding-top: 150px;
-  left: 50%;
+  margin-left: 50%;
   transform: translateX(-50%);
 }
 
