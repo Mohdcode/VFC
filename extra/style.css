@@ -1485,3 +1485,101 @@ p b {
   height: 200px; /* Set height */
  
 }
+
+
+
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  .rating1 {
+    padding-top: 130px;
+    padding-left: 37%;
+  }
+
+ .heading{
+  padding-top: 5px;
+  font-size: 20px;
+ }
+ .deals{
+  font-size: 20px;
+ }
+ .role-container{
+  font-size: 18px;
+  
+ }
+
+  .address {
+    padding-top: 100px;
+  }
+
+  .first-list li{
+    margin-left: -25px;
+  }
+
+  .first-list li a {
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 2px; /* Slightly reduced margin for closer spacing */
+  }
+  .add-span {
+    padding-left: 14px;
+    font-size: 16px; /* Smaller text size for contact-us */
+  }
+  .address .icon {
+    font-size: 20px; /* Smaller icon size */
+  }
+
+  .address {
+    left: 20px; /* Move the address section to the left */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  .contact-us {
+    padding-top: 20px;
+    font-size: 10px; /* Smaller text size for contact-us */
+  }
+
+  .address {
+    padding-top: 100px;
+  }
+
+  .address a {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+  }
+
+  .first-list li a {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 22px;
+    margin: 0 5px; /* Reduced margin for closer spacing */
+  }
+  
+  .add-span {
+    font-size: 14px; /* Even smaller text size for very small devices */
+  }
+
+  .address .icon {
+    font-size: 18px; /* Even smaller icon size */
+  }
+
+  .address {
+    left: 10px; /* Move the address section further to the left */
+  }
+}
