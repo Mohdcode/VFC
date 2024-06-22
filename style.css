@@ -802,6 +802,9 @@ cursor: pointer;
   height: 200px; /* Set height */
  
 }
+.img-container.fa-whatsapp{
+  font-size: 20px;
+}
 footer {
   background: #f3e8e2;
   text-align: center;
@@ -1088,4 +1091,30 @@ p b {
   .address {
     left: 16px; /* Move the address section further to the left */
   }
+} 
+@media (max-width: 400px) {
+  .img-gallery {
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-gap: 10px;
+  }
+ 
+  .img-container a{
+    font-size: 12px;
+  }
+  .btn-pink {
+    background-color: #e84949;
+    padding: 0.4rem 1.1rem;
+    color: white;
+    box-shadow: 1px 1px 1px 0px #0000003f;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    transition: all 0.8s;
+    text-decoration: none;
+  cursor: pointer;
+  }
+
+
 }
